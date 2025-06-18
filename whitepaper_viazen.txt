@@ -1,0 +1,920 @@
+## 📄 WHITEPAPER -- VIAZEN.APP
+
+**La nueva era del transporte, el alojamiento y los pagos
+descentralizados**\
+Versión 1.0 -- 2025
+
+### 📘 ÍNDICE (referencial)
+
+1.  Resumen Ejecutivo
+
+2.  Introducción
+
+3.  Contexto y problemática global
+
+4.  Propuesta de solución
+
+5.  Arquitectura del ecosistema
+
+6.  El Token VIAZ: características y usos
+
+7.  Tokenomics: distribución y estrategia
+
+8.  Fases de preventa y modelo económico
+
+9.  Roadmap estratégico (2025--2028)
+
+10. Casos de uso y ejemplos reales
+
+11. Modelo de gobernanza descentralizada
+
+12. Seguridad y privacidad
+
+13. Integración con otras plataformas y redes
+
+14. Plan de marketing y adopción
+
+15. Comunidad y expansión internacional
+
+16. Equipo fundador y advisors
+
+17. Aspectos legales y cumplimiento normativo
+
+18. Riesgos y mitigación
+
+19. Conclusión
+
+20. Anexos (glosario, contrato, referencias)
+
+### 1. RESUMEN EJECUTIVO
+
+VIAZEN es una plataforma digital descentralizada que busca revolucionar
+tres industrias dominadas por grandes corporaciones: el transporte
+urbano, el alojamiento turístico y los sistemas de pago. Al integrar
+estos tres servicios en una única infraestructura blockchain, VIAZEN
+empodera a las personas para que puedan moverse, hospedarse y pagar sin
+intermediarios, sin censura y con total libertad.
+
+El proyecto está sustentado por el token VIAZ, una unidad digital de
+intercambio que opera sobre la Binance Smart Chain (BEP-20). VIAZ no
+solo permite transacciones rápidas y económicas, sino que también
+habilita un sistema de recompensas, gobernanza y beneficios para todos
+los participantes.
+
+VIAZEN representa un paso más allá de las plataformas como Uber, Airbnb
+y MercadoPago, al ofrecer un ecosistema abierto, transparente y
+verdaderamente global.
+
+### 2. INTRODUCCIÓN
+
+En la última década, las plataformas digitales han transformado la
+manera en que nos movilizamos, alojamos y realizamos pagos. Sin embargo,
+a pesar de su utilidad inicial, estas plataformas han evolucionado hacia
+modelos altamente centralizados, restrictivos y extractivos. Usuarios y
+trabajadores están sujetos a:
+
+-   Tarifas excesivas y comisiones ocultas.
+
+-   Políticas opacas y cambios unilaterales en términos de uso.
+
+-   Exclusión financiera para personas sin acceso a sistemas bancarios.
+
+-   Limitaciones geográficas, regulatorias o tecnológicas.
+
+VIAZEN nace como respuesta a estas limitaciones, construyendo un
+ecosistema basado en tecnología blockchain, contratos inteligentes y una
+comunidad abierta. Su objetivo es democratizar el acceso a servicios
+esenciales, ofrecer una alternativa sin fricciones y potenciar la
+participación directa de usuarios, conductores, anfitriones y
+desarrolladores en la evolución del sistema.
+
+Perfecto, Danilo. Ahora vamos con la **Entrega 2 del whitepaper de
+VIAZEN**, que incluirá los capítulos **3 y 4**, pero esta vez con
+**mayor profundidad**, datos comparativos y un análisis claro de la
+competencia frente a lo que VIAZEN propone.
+
+### 3. CONTEXTO Y PROBLEMÁTICA GLOBAL
+
+#### 3.1 La paradoja de la economía digital
+
+En teoría, la digitalización prometía facilitar el acceso, la inclusión
+y la eficiencia en servicios básicos. Sin embargo, en la práctica, la
+mayoría de las plataformas que hoy dominan el mercado actúan como
+**intermediarios cerrados**, **extrayendo valor** en lugar de
+redistribuirlo.
+
+**Uber, Airbnb, MercadoPago, PayPal, Stripe, Booking, Bolt y DiDi** son
+ejemplos de empresas tecnológicas que centralizan operaciones, definen
+tarifas y acumulan enormes beneficios a costa de quienes generan el
+valor real: los usuarios y proveedores de servicios.
+
+#### 3.2 Comparativa de plataformas actuales
+
+  ----------------------------------------------------------------------------------------
+  **Plataforma**   **Comisiones   **Libertad   **Medio de pago   **Pagos en **Gobernanza
+                   promedio**     para fijar   único**           cripto**   por usuarios**
+                                  precio**                                  
+  ---------------- -------------- ------------ ----------------- ---------- --------------
+  Uber             25--35%        No           Tarjeta/crédito   No         No
+
+  Airbnb           15--20%        Parcial      Tarjeta/dólar     No         No
+
+  MercadoPago      5--15%         Parcial      Pesos/tarjeta     No         No
+
+  PayPal           4--6%          No           Dólar/Euro        No         No
+
+  Booking          12--18%        Parcial      Tarjeta/dólar     No         No
+
+  VIAZEN           1--5%          **Sí (libre  **Multimoneda**   **Sí**     **Sí**
+                                  acuerdo)**                                
+  ----------------------------------------------------------------------------------------
+
+#### 3.3 Problemas estructurales del modelo actual
+
+1.  **Comisiones abusivas:**\
+    Conductores, anfitriones y vendedores pierden entre el 10% y el 35%
+    del ingreso por cada transacción.
+
+2.  **Centralización de datos y control:**\
+    Las plataformas son juez y parte: definen precios, cobran, validan,
+    penalizan o cierran cuentas.
+
+3.  **Dependencia bancaria:**\
+    Requieren tarjetas, bancos o sistemas financieros para operar,
+    excluyendo a millones.
+
+4.  **Limitaciones geográficas y legales:**\
+    Muchas personas no pueden acceder a estos servicios por vivir en
+    regiones no admitidas o no bancarizadas.
+
+5.  **Privacidad nula:**\
+    Todas las operaciones están monitorizadas, expuestas a censura o
+    incluso confiscación.
+
+### 4. LA PROPUESTA VIAZEN: LIBERTAD Y RECOMPENSAS EN UN SOLO ECOSISTEMA
+
+VIAZEN no es una app más. Es **una infraestructura descentralizada**
+para operar libremente en tres dimensiones cotidianas:
+
+#### 4.1 Transporte descentralizado (VIAZEN MOVE)
+
+Inspirado en el modelo P2P, VIAZEN permite que cualquier persona pueda:
+
+-   Ofrecer o solicitar viajes sin depender de una empresa.
+
+-   Fijar precios por mutuo acuerdo, sin algoritmos opacos.
+
+-   Cobrar o pagar en moneda local, criptomonedas o token VIAZ.
+
+-   Recibir recompensas por reputación, volumen o antigüedad.
+
+**Diferencia clave con Uber o DiDi:**\
+Uber decide las tarifas, aplica penalizaciones automáticas y bloquea
+conductores según su algoritmo. VIAZEN delega la autonomía a los
+usuarios y premia la buena reputación en cadena.
+
+#### 4.2 Alojamiento descentralizado (VIAZEN STAY)
+
+Al igual que Airbnb, VIAZEN permite publicar y reservar hospedajes. Pero
+lo hace:
+
+-   Sin comisiones (1% si se paga con VIAZ, 5% máximo con otros
+    métodos).
+
+-   Con total libertad en métodos de pago: efectivo, cripto, tarjeta,
+    transferencia.
+
+-   Sin restricciones geográficas ni validaciones invasivas.
+
+**Comparación con Airbnb:**
+
+  -----------------------------------------------------------------------
+  **Característica**       **Airbnb**       **VIAZEN STAY**
+  ------------------------ ---------------- -----------------------------
+  Comisiones               15--20%          1--5%
+
+  Medio de pago            Solo tarjeta     Todos: fiat, cripto, QR
+
+  Precio controlado        Parcial          Libre acuerdo
+
+  Intermediarios           Sí               No
+
+  Pagos en cripto          No               Sí
+  -----------------------------------------------------------------------
+
+#### 4.3 Billetera con beneficios (VIAZEN PAY)
+
+VIAZEN ofrece una billetera digital que une lo mejor de MercadoPago con
+las ventajas del mundo descentralizado.
+
+Con VIAZEN PAY podrás:
+
+-   Enviar y recibir pagos en cualquier parte del mundo.
+
+-   Cobrar con QR sin pagar comisiones si usas VIAZ.
+
+-   Acceder a beneficios por uso frecuente: cashback, descuentos,
+    niveles VIP.
+
+-   Utilizar tanto monedas fiat como criptomonedas sin límites.
+
+**Ventajas frente a MercadoPago o PayPal:**
+
+-   0% de comisión con VIAZ
+
+-   Transacciones sin bancos
+
+-   Sin bloqueos de cuenta
+
+-   Compatible con pagos en persona o remotos
+
+-   Privacidad y soberanía financiera real
+
+#### 4.4 Incentivos y recompensas
+
+Todos los servicios de VIAZEN están diseñados para recompensar la
+participación:
+
+-   **Pasajeros:** reciben viajes gratis al registrarse y descuentos al
+    pagar con VIAZ.
+
+-   **Conductores:** cero comisión en los primeros 100 viajes y bono de
+    \$50 en tokens.
+
+-   **Anfitriones:** incentivos por mantenerse activos y recibir buenas
+    valoraciones.
+
+-   **Usuarios frecuentes:** niveles de recompensa por volumen y
+    antigüedad.
+
+### 5. ARQUITECTURA DEL ECOSISTEMA VIAZEN
+
+El ecosistema VIAZEN se compone de tres aplicaciones interconectadas
+pero autónomas: **VIAZEN MOVE**, **VIAZEN STAY** y **VIAZEN PAY**. Cada
+una tiene su propia lógica de negocio, pero comparten los mismos
+principios: descentralización, bajo costo, accesibilidad global y
+gobernanza comunitaria.
+
+#### 5.1 Infraestructura técnica
+
+**Blockchain principal:** Binance Smart Chain (BEP-20)\
+**EVM compatible:** sí\
+**Contratos inteligentes:** auditados, públicos y modulares\
+**Oráculos externos:** Chainlink u otros para conexión con datos del
+mundo real\
+**Identidad descentralizada:** cada usuario tiene una wallet que actúa
+como su identidad digital\
+**Front-end:** aplicaciones móviles y web progresivas (PWA)
+
+#### 5.2 Funcionamiento general (visualización conceptual)
+
+┌────────────────────┐
+
+│ Usuario con Wallet│
+
+└────────────────────┘
+
+│
+
+▼
+
+┌────────────────┐
+
+│ Interfaz DApp │◄────────────┐
+
+└────────────────┘ │
+
+│ │
+
+▼ │
+
+┌────────────────────┐ ┌──────────────────┐
+
+│ Smart Contract MOVE│ │ Smart Contract STAY│
+
+└────────────────────┘ └──────────────────┘
+
+│ │
+
+▼ ▼
+
+VIAZEN MOVE VIAZEN STAY
+
+(transporte P2P) (hospedaje entre pares)
+
+Todos los pagos, registros, reservas o solicitudes de viaje se procesan
+mediante **contratos inteligentes**, sin bases de datos centralizadas.
+Los usuarios interactúan directamente con la blockchain, a través de
+interfaces amigables.
+
+#### 5.3 Seguridad, privacidad y escalabilidad
+
+-   **Cada operación queda registrada en la blockchain**, lo que
+    garantiza transparencia y auditabilidad.
+
+-   No se almacena información personal en servidores centrales.
+
+-   Se utilizará cifrado asimétrico para mensajes y comunicaciones entre
+    usuarios.
+
+-   La arquitectura modular permite **escalar horizontalmente**,
+    conectando nuevas regiones, divisas o servicios sin reestructurar
+    todo el sistema.
+
+#### 5.4 Sostenibilidad del ecosistema
+
+A diferencia de proyectos que prometen "cero comisión" pero luego se
+vuelven insostenibles, VIAZEN incorpora **comisiones mínimas
+simbólicas**:
+
+-   Transporte: 0% si se paga con VIAZ, hasta 5% si se paga con otras
+    monedas.
+
+-   Alojamiento: **1% mínimo incluso pagando con VIAZ**, 5% con otros
+    métodos.
+
+-   Pagos: 0% si se usa VIAZ, pequeña comisión si se usan otras monedas.
+
+Estas comisiones mínimas permiten:
+
+-   Financiar mejoras continuas del sistema.
+
+-   Sostener la liquidez del token.
+
+-   Redistribuir ganancias en forma de recompensas.
+
+-   Mantener al ecosistema **autosustentable** y no dependiente de
+    capital externo.
+
+### 6. EL TOKEN VIAZ: MOTOR DEL ECOSISTEMA
+
+#### 6.1 Especificaciones técnicas
+
+-   **Nombre:** VIAZEN
+
+-   **Símbolo:** VIAZ
+
+-   **Red:** Binance Smart Chain (BEP-20)
+
+-   **Decimales:** 18
+
+-   **Supply máximo:** 1.000.000.000 VIAZ
+
+-   **Funciones activas:** transfer, burn, mint (solo propietario),
+    approve, allowance
+
+#### 6.2 Usos del token VIAZ
+
+1.  **Medio de pago** dentro de la app: para viajes, reservas,
+    comisiones, propinas.
+
+2.  **Sistema de recompensas:** cashback, bonificaciones, premios por
+    antigüedad.
+
+3.  **Acceso preferencial:** los usuarios con más VIAZ tendrán prioridad
+    en promociones y nuevas funciones.
+
+4.  **Participación en gobernanza futura:** se implementará un modelo
+    DAO donde los poseedores de VIAZ podrán votar en decisiones clave.
+
+5.  **Descuentos especiales:** al pagar con VIAZ, el costo de uso se
+    reduce.
+
+6.  **Recompensas por tenencia:** sistema de holding o staking con
+    beneficios mensuales.
+
+#### 6.3 Ejemplos de uso real del token
+
+**Caso 1 -- María, conductora en VIAZEN MOVE:**\
+María realiza 120 viajes usando la app. Al pagar comisión con USDT,
+tendría que entregar un 5%. Pero como cobra en VIAZ, solo se le
+descuenta 0%, y además recibe un bonus del 3% por volumen mensual.
+
+**Caso 2 -- Leo, viajero frecuente:**\
+Leo reserva alojamientos con VIAZEN STAY pagando en VIAZ. Le descuentan
+solo 1% y, por usar el token, acumula puntos canjeables por noches
+gratuitas.
+
+**Caso 3 -- Sofía, comerciante:**\
+Usa VIAZEN PAY para cobrar en cripto con QR. Los clientes que pagan en
+VIAZ no generan comisión y Sofía recibe un porcentaje extra si mantiene
+tokens en su wallet por más de 30 días.
+
+#### 6.4 Estabilidad y antiinflación
+
+El modelo de distribución de VIAZ contempla:
+
+-   Un supply fijo (1.000.000.000 tokens).
+
+-   Comisiones mínimas que retornan al ecosistema como liquidez o
+    recompensas.
+
+-   Quemas periódicas con parte de las comisiones recaudadas (burn
+    events).
+
+-   Incentivos a la tenencia para evitar alta rotación (staking/holding
+    con interés).
+
+Esto crea un **circuito cerrado y deflacionario**, lo cual ayuda a
+estabilizar el valor del token sin la necesidad de control artificial o
+manipulación de mercado.
+
+Perfecto, Danilo. A continuación, te presento la **Entrega 4 del
+Whitepaper de VIAZEN**, con todo lo necesario para consolidar la visión
+estratégica del proyecto, asegurar su escalabilidad y atraer tanto a
+usuarios como a inversores serios.
+
+Esta entrega incluye:
+
+-   Capítulo 7: **Tokenomics completos**
+
+-   Capítulo 8: **Fases de preventa y estrategia económica**
+
+-   Capítulo 9: **Roadmap estratégico**
+
+-   Visualizaciones conceptuales en estilo textual, pensadas para que
+    luego puedas convertirlas en gráficas reales
+
+### 7. TOKENOMICS DEL TOKEN VIAZ
+
+El diseño económico del token VIAZ fue pensado para **garantizar
+sostenibilidad, escalabilidad y valor real** a largo plazo.
+
+#### 7.1 Distribución total del suministro (1.000.000.000 VIAZ)
+
+  ---------------------------------------------------------------------------------
+  **Uso**            **Porcentaje**   **Tokens      **Detalles clave**
+                                      asignados**   
+  ------------------ ---------------- ------------- -------------------------------
+  Preventa pública   20%              200.000.000   Se venderán en etapas, con
+                                                    precios crecientes
+
+  Recompensas /      10%              100.000.000   Incentivos por uso, referidos,
+  Airdrops                                          comunidad
+
+  Incentivo por      12%              120.000.000   Sistema de tenencia con
+  holding                                           recompensas mensuales
+
+  Comunidad y        20%              200.000.000   Bonificaciones para early
+  usuarios                                          adopters y usuarios activos
+
+  Desarrollo del     15%              150.000.000   Equipos técnicos, servidores,
+  ecosistema                                        infraestructura descentralizada
+
+  Liquidez inicial   10%              100.000.000   Para exchanges como
+  en DEXs                                           PancakeSwap, Uniswap
+
+  Equipo fundador y  10%              100.000.000   Bloqueados por 12 meses con
+  advisors                                          desbloqueo gradual
+
+  Marketing,         3%               30.000.000    Campañas, influencers, alianzas
+  alianzas,                                         estratégicas
+  expansión                                         
+  ---------------------------------------------------------------------------------
+
+#### 7.2 Estrategia antiinflacionaria
+
+-   No se emitirá más del suministro total (hard cap fijo).
+
+-   Se implementarán **mecanismos de quema (burn)** con parte de las
+    comisiones recaudadas.
+
+-   El staking y el holding generarán beneficios en lugar de inflar la
+    oferta.
+
+-   La utilidad real del token en el ecosistema aumentará su demanda sin
+    intervención artificial.
+
+### 8. PREVENTA DEL TOKEN Y ESTRATEGIA ECONÓMICA
+
+#### 8.1 Fases de preventa
+
+  -----------------------------------------------------------------------
+  **Fase**      **Precio x    **Cantidad           **Acceso**
+                VIAZ**        disponible**         
+  ------------- ------------- -------------------- ----------------------
+  Fase 1        \$0.010 USD   80.000.000 VIAZ      Preventa privada
+
+  Fase 2        \$0.020 USD   60.000.000 VIAZ      Comunidad y whitelist
+
+  Fase 3        \$0.030 USD   40.000.000 VIAZ      Preventa pública
+
+  Lanzamiento   \$0.10 USD    ---                  Precio en exchanges
+  -----------------------------------------------------------------------
+
+#### 8.2 Objetivo de recaudación
+
+-   Financiar el desarrollo de la app de transporte y su expansión
+    inicial.
+
+-   Asegurar liquidez para exchanges descentralizados.
+
+-   Recompensar a los primeros usuarios del ecosistema.
+
+-   Cubrir costos técnicos y de seguridad (auditorías, servidores,
+    APIs).
+
+#### 8.3 Medios de compra aceptados
+
+-   USDT, BUSD, ETH, BNB, BTC
+
+-   Tarjetas de crédito/débito (a través de integraciones externas)
+
+-   Transferencias bancarias locales (Argentina)
+
+-   Pago Fácil, RapiPago, MercadoPago
+
+-   **Pagos en VIAZ con descuento exclusivo**
+
+### 9. ROADMAP ESTRATÉGICO DE VIAZEN (2025--2028)
+
+#### 9.1 Visualización general (línea del tiempo textual)
+
+🚀 Fase 1 -- Q3 2025
+
+\- Lanzamiento del token VIAZ (testnet y mainnet)
+
+\- Inicio de preventa
+
+\- Construcción de comunidad base
+
+\- Campañas educativas
+
+📱 Fase 2 -- Q4 2025
+
+\- Lanzamiento de VIAZEN MOVE (transporte descentralizado)
+
+\- Incentivos para conductores y pasajeros
+
+\- Integración de pagos con VIAZ y stablecoins
+
+🏡 Fase 3 -- Q2 2026
+
+\- Lanzamiento de VIAZEN STAY (alojamiento entre pares)
+
+\- Comisiones mínimas del 1%
+
+\- Pagos multimoneda (fiat y cripto)
+
+💳 Fase 4 -- Q4 2026
+
+\- Lanzamiento completo de VIAZEN PAY (billetera descentralizada)
+
+\- Sistema de recompensas con VIAZ
+
+\- QR para pagos en comercios
+
+🌐 Fase 5 -- 2027
+
+\- Expansión internacional: LATAM, Europa, África
+
+\- Alianzas con ciudades descentralizadas y DAO locales
+
+🧱 Fase 6 -- 2028
+
+\- Desarrollo y migración progresiva a la \*\*blockchain propia de
+VIAZEN\*\*
+
+\- Eliminación de comisiones a terceros
+
+\- Gobernanza total on-chain
+
+#### 9.2 Objetivo final del roadmap
+
+VIAZEN no es solo una app. Es una infraestructura pensada para:
+
+-   Ser autónoma.
+
+-   Autoescalarse por regiones.
+
+-   Reducir costos estructurales (gracias a su cadena propia).
+
+-   Democratizar el acceso al transporte, hospedaje y cobros.
+
+-   Convertirse en la red preferida para personas excluidas del sistema
+    financiero.
+
+### 10. CASOS DE USO REALES DEL ECOSISTEMA VIAZEN
+
+#### 🚘 VIAZEN MOVE -- Transporte descentralizado
+
+**Caso: Martina, usuaria en Salta**\
+Martina no tiene tarjeta de crédito. Con VIAZEN MOVE puede solicitar
+viajes y pagar con efectivo, cripto o transferencia local. También puede
+calificar a los conductores y recibir puntos por uso frecuente.
+
+**Beneficio real:** transporte económico, sin exclusión financiera.
+
+#### 🏠 VIAZEN STAY -- Alojamiento sin fronteras
+
+**Caso: Khalil, turista de Túnez en Argentina**\
+Khalil no puede usar Airbnb por limitaciones bancarias. En VIAZEN STAY
+encuentra alojamiento que acepta criptomonedas. Al pagar con VIAZ, solo
+se le cobra el 1% de comisión.
+
+**Beneficio real:** libertad de hospedaje con métodos de pago globales.
+
+#### 💳 VIAZEN PAY -- Pagos globales con beneficios
+
+**Caso: Estela, emprendedora local**\
+Estela vende tortas y acepta pagos con QR. Los pagos en VIAZ no tienen
+comisión. Además, si mantiene tokens en su wallet, gana recompensas
+automáticas mensuales.
+
+**Beneficio real:** cobrar sin bancos, sin costo, con beneficios.
+
+### 11. GOBERNANZA Y DAO
+
+#### Gobernanza comunitaria descentralizada
+
+VIAZEN evolucionará hacia una DAO (Organización Autónoma
+Descentralizada) donde:
+
+-   Los poseedores de VIAZ votarán propuestas clave: mejoras, tarifas,
+    expansiones.
+
+-   Se propondrán actualizaciones vía smart contract.
+
+-   Se definirá un fondo común para mejoras basado en parte de las
+    comisiones mínimas.
+
+**Ejemplo de votación:**
+
+-   ¿Activar nuevas regiones?
+
+-   ¿Revisar comisiones para nuevos servicios?
+
+-   ¿Implementar nueva función en la app?
+
+Esto empodera a la comunidad como dueña real del ecosistema.
+
+### 12. SEGURIDAD Y PRIVACIDAD
+
+#### Seguridad:
+
+-   Smart contracts auditados por terceros independientes.
+
+-   Códigos abiertos en GitHub.
+
+-   Protección contra ataques tipo front-running, reentradas o
+    manipulación de gas.
+
+#### Privacidad:
+
+-   El usuario solo necesita una wallet para operar.
+
+-   No se solicitan datos personales innecesarios.
+
+-   La actividad queda en la blockchain, pero sin exponer identidad.
+
+Se prioriza la **autonomía individual** sobre los intereses de terceros.
+
+### 13. EXPANSIÓN TÉCNICA E INTEROPERABILIDAD
+
+VIAZEN es 100% compatible con el ecosistema Ethereum (EVM), lo que
+permite:
+
+-   Integrarse con Metamask, Trust Wallet y wallets populares.
+
+-   Conectarse a otras cadenas: Polygon, Arbitrum, Avalanche.
+
+-   Utilizar puentes (bridges) para mover tokens de forma segura.
+
+Además, se planifica la integración con tecnologías emergentes como:
+
+-   Rollups (Optimistic y ZK) para escalar sin congestión.
+
+-   IPFS para alojar archivos (perfiles, imágenes, reseñas).
+
+-   Oráculos para fijación de precios en tiempo real.
+
+### 🌐 HACIA LA BLOCKCHAIN PROPIA: VIAZEN CHAIN
+
+#### Nombre tentativo: VIAZEN Chain
+
+(Se evaluarán propuestas mediante votación comunitaria en DAO)
+
+#### Objetivos:
+
+-   Autonomía total
+
+-   Eliminación de tarifas a terceros
+
+-   Integración nativa con MOVE, STAY y PAY
+
+-   Gobernanza full on-chain
+
+-   Capacidad de escalar a millones de usuarios
+
+#### Token principal: Se mantendrá VIAZ como token nativo
+
+No será necesario migrar de token, pero se creará una **versión nativa
+en la nueva cadena**.
+
+#### Modelo de migración:
+
+1.  Fase de desarrollo (2026-2027): testnet y validación con comunidad.
+
+2.  Fase de transición voluntaria: los usuarios podrán portar su saldo
+    de BSC a la nueva cadena.
+
+3.  Incentivo: se otorgarán bonos en VIAZ a quienes migren
+    anticipadamente.
+
+4.  Las comisiones internas en la nueva red serán irrisorias, y 100%
+    reinvertidas en la comunidad.
+
+#### Beneficios clave de la VIAZEN Chain:
+
+-   100% sin censura
+
+-   Comisiones casi nulas
+
+-   Modular y escalable
+
+-   Control soberano de todos los servicios
+
+-   Estabilidad económica del token (mediante control nativo de su
+    lógica)
+
+Vamos directo a la **ENTREGA FINAL** del whitepaper de VIAZEN. Aquí
+están los **capítulos 14 al 20** y una **infografía textual del
+ecosistema completo**. Al final, lo compilaré en un PDF profesional de
+30 páginas como pediste.
+
+### 14. PLAN DE MARKETING Y ADOPCIÓN
+
+**Objetivo:** lograr tracción rápida de usuarios, construir comunidad y
+generar confianza inversora.
+
+#### Estrategias clave:
+
+-   🚀 Campañas de airdrops e incentivos por referidos.
+
+-   📱 Publicidad segmentada en redes sociales y cripto-comunidades.
+
+-   🤝 Alianzas con influencers de movilidad, turismo y cripto.
+
+-   🎓 Formación de embajadores locales.
+
+-   🌍 Activaciones en ciudades clave (inicialmente Argentina, luego
+    LATAM).
+
+-   📈 Listado en CoinMarketCap y agregadores.
+
+-   📰 PR y cobertura en medios tecnológicos.
+
+### 15. COMUNIDAD Y EXPANSIÓN INTERNACIONAL
+
+VIAZEN nace con visión global pero con raíces locales.
+
+#### Fase 1: Argentina
+
+Lanzamiento y expansión por ciudades secundarias con alta demanda de
+transporte informal y poca penetración de apps tradicionales.
+
+#### Fase 2: LATAM
+
+Chile, Paraguay, Perú y México. Mercados donde Uber y Airbnb tienen
+restricciones o precios elevados.
+
+#### Fase 3: África y Asia emergente
+
+Solución a regiones sin bancarización y con alto uso de telefonía móvil.
+
+#### Comunidad
+
+-   Telegram, Discord, YouTube, X (Twitter), Instagram
+
+-   Gobernanza activa a través de DAO
+
+-   Eventos online y presenciales
+
+### 16. EQUIPO FUNDADOR Y ADVISORS
+
+**Danilo Ponce**\
+*Creador y visionario del proyecto VIAZEN.*\
+Especialista en tecnología, estrategia y diseño de modelos
+descentralizados.
+
+🧑‍🤝‍🧑 **Equipo ampliado en construcción**: desarrolladores, diseñadores,
+especialistas blockchain y community builders.
+
+🧠 Se sumarán advisors expertos en cripto, transporte, fintech y
+alojamiento.
+
+### 17. ASPECTOS LEGALES Y REGULATORIOS
+
+VIAZEN cumple con las normativas aplicables en cuanto a:
+
+-   Prevención de lavado de dinero (KYC opcional según método de pago).
+
+-   Uso de tokens como medio de intercambio, no como valor especulativo.
+
+-   Contratos abiertos y auditables.
+
+-   Política de privacidad que protege la identidad y los datos de los
+    usuarios.
+
+⚠ En algunos países puede requerirse advertencia de uso o bloqueo
+temporal según legislación vigente. Se incluirán disclaimers según
+región.
+
+### 18. RIESGOS Y MITIGACIÓN
+
+  -----------------------------------------------------------------------
+  **Riesgo**                 **Mitigación**
+  -------------------------- --------------------------------------------
+  Baja adopción inicial      Incentivos, alianzas locales
+
+  Volatilidad del token      Reserva de liquidez, recompensas en stable
+
+  Ataques técnicos           Auditorías, recompensas por bugs
+
+  Problemas regulatorios     Asesoría legal, DAO flexible
+
+  Competencia centralizada   Oferta superior: comisiones bajas + cripto
+  -----------------------------------------------------------------------
+
+### 19. CONCLUSIÓN
+
+VIAZEN no es una app. Es una **respuesta a un modelo agotado**, una
+infraestructura abierta para el futuro de la movilidad, el hospedaje y
+los pagos.
+
+Desde su diseño hasta su expansión, todo está orientado a:
+
+-   Democratizar el acceso
+
+-   Recompensar la participación
+
+-   Sostener un modelo económico real
+
+-   Crear una red de valor humano, no corporativo
+
+**VIAZEN es libertad. VIAZEN es ahora.**
+
+### 20. ANEXOS
+
+-   Glosario de términos
+
+-   Código base del contrato BEP-20 de VIAZ
+
+-   Referencias: Uber, Airbnb, MP, BSC, Tokenomics ejemplos
+
+-   Contacto oficial y enlaces a comunidad
+
+## 🌐 INFOGRAFÍA TEXTUAL DEL ECOSISTEMA VIAZEN
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\| USUARIO CON WALLET \|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\|
+
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
+
+\| \| \|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\| VIAZEN MOVE \| \| VIAZEN STAY \| \| VIAZEN PAY \|
+
+\| Transporte P2P \| \| Hospedaje P2P \| \|Billetera cripto\|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\| \| \|
+
+PAGOS EN VIAZ PAGOS EN VIAZ COMPRAS CON QR
+
+\| \| \|
+
+\-\-\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
++\-\-\-\-\-\-\-\-\-\-\--
+
+\| VIAZ TOKEN \|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\| GOVERNANZA (DAO) \|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+
+\| VIAZEN CHAIN (2027) \|
+
+\| Blockchain propia futura\|
+
++\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+

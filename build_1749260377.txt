@@ -1,0 +1,839 @@
+
+> react_repo@0.0.0 build
+> pnpm install && rm -rf node_modules/.vite-temp && tsc -b && vite build
+
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: esbuild.                                            │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 2.8s using pnpm v10.11.0
+src/contexts/LanguageContext.tsx:127:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+127     'transport.title': '🚗 TRANSPORTE DESCENTRALIZADO',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:128:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+128     'transport.intro': 'Conectamos pasajeros y conductores directamente, sin intermediarios.',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:129:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+129     'transport.advantages': 'Ventajas revolucionarias',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:130:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+130     'transport.feature1': 'Comisiones irrisorias vs. 25% de Uber',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:131:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+131     'transport.feature2': 'Pagos en cripto y efectivo sin KYC',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:132:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+132     'transport.feature3': 'Conductores ganan más dinero',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:133:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+133     'transport.feature4': 'Pasajeros pagan menos',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:134:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+134     'transport.feature5': 'Recompensas en tokens VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:135:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+135     'transport.quote': 'El futuro del transporte es descentralizado',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:136:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+136     'transport.highlights.commission': 'Comisiones mínimas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:137:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+137     'transport.highlights.blockchain': 'Seguridad blockchain',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:138:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+138     'transport.highlights.global': 'Red global',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:139:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+139     'transport.highlights.tokens': 'Recompensas VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:142:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+142     'accommodation.title': '🏠 ALOJAMIENTO DESCENTRALIZADO',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:143:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+143     'accommodation.intro': 'Una red global de hospedaje',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:144:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+144     'accommodation.network': 'Red descentralizada de alojamientos',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:145:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+145     'accommodation.improvements': 'mejoras fundamentales',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:146:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+146     'accommodation.feature1': 'Comisiones ultra bajas vs. 18% de Airbnb',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:147:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+147     'accommodation.feature2': 'Sin censura ni suspensiones arbitrarias',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:148:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+148     'accommodation.feature3': 'Pagos directos en cripto/efectivo',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:149:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+149     'accommodation.feature4': 'Recompensas por hosting',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:150:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+150     'accommodation.feature5': 'Comunidad global verificada',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:151:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+151     'accommodation.quote': 'Hospedaje libre, justo y rentable',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:152:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+152     'accommodation.highlights.commission': 'Comisiones ultra bajas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:153:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+153     'accommodation.highlights.nocensorship': 'Sin censura',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:154:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+154     'accommodation.highlights.blockchain': 'Pagos blockchain',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:155:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+155     'accommodation.highlights.cashback': 'Cashback VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:156:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+156     'accommodation.connecting': 'que conecta',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:159:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+159     'payments.title': '💳 SISTEMA DE PAGOS DESCENTRALIZADO',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:160:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+160     'payments.intro': 'Procesa pagos globalmente sin bancos ni intermediarios.',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:161:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+161     'payments.improvements': 'Mejoras disruptivas',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:162:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+162     'payments.feature1': 'Comisiones irrisorias vs. 4-6% tarjetas',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:163:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+163     'payments.feature2': 'Pagos instantáneos 24/7',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:164:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+164     'payments.feature3': 'Compatible con QR y cripto',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:165:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+165     'payments.feature4': 'Sin restricciones geográficas',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:166:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+166     'payments.feature5': 'Recompensas por transacciones',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:167:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+167     'payments.quote': 'Pagos libres para el mundo',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:168:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+168     'payments.highlights.commission': 'Comisiones mínimas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:169:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+169     'payments.highlights.decentralized': '100% descentralizado',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:170:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+170     'payments.highlights.qrcrypto': 'QR + Cripto',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:171:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+171     'payments.highlights.tokens': 'Rewards en VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:328:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+328     'transport.title': '🚗 DECENTRALIZED TRANSPORT',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:329:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+329     'transport.intro': 'We connect passengers and drivers directly, without intermediaries.',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:330:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+330     'transport.advantages': 'Revolutionary advantages',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:331:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+331     'transport.feature1': 'Minimal fees vs. 25% Uber',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:332:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+332     'transport.feature2': 'Crypto and cash payments without KYC',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:333:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+333     'transport.feature3': 'Drivers earn more money',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:334:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+334     'transport.feature4': 'Passengers pay less',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:335:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+335     'transport.feature5': 'VIAZ token rewards',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:336:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+336     'transport.quote': 'The future of transport is decentralized',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:337:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+337     'transport.highlights.commission': 'Minimal fees',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:338:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+338     'transport.highlights.blockchain': 'Blockchain security',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:339:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+339     'transport.highlights.global': 'Global network',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:340:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+340     'transport.highlights.tokens': 'VIAZ rewards',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:343:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+343     'accommodation.title': '🏠 DECENTRALIZED ACCOMMODATION',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:344:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+344     'accommodation.intro': 'A global hosting network',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:345:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+345     'accommodation.network': 'Decentralized accommodation network',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:346:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+346     'accommodation.improvements': 'fundamental improvements',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:347:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+347     'accommodation.feature1': 'Ultra-low fees vs. 18% Airbnb',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:348:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+348     'accommodation.feature2': 'No censorship or arbitrary suspensions',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:349:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+349     'accommodation.feature3': 'Direct crypto/cash payments',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:350:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+350     'accommodation.feature4': 'Hosting rewards',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:351:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+351     'accommodation.feature5': 'Verified global community',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:352:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+352     'accommodation.quote': 'Free, fair and profitable hosting',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:353:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+353     'accommodation.highlights.commission': 'Ultra-low fees',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:354:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+354     'accommodation.highlights.nocensorship': 'No censorship',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:355:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+355     'accommodation.highlights.blockchain': 'Blockchain payments',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:356:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+356     'accommodation.highlights.cashback': 'VIAZ cashback',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:357:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+357     'accommodation.connecting': 'that connects',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:360:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+360     'payments.title': '💳 DECENTRALIZED PAYMENT SYSTEM',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:361:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+361     'payments.intro': 'Process payments globally without banks or intermediaries.',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:362:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+362     'payments.improvements': 'Disruptive improvements',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:363:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+363     'payments.feature1': 'Minimal fees vs. 4-6% cards',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:364:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+364     'payments.feature2': 'Instant payments 24/7',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:365:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+365     'payments.feature3': 'QR and crypto compatible',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:366:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+366     'payments.feature4': 'No geographical restrictions',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:367:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+367     'payments.feature5': 'Transaction rewards',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:368:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+368     'payments.quote': 'Free payments for the world',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:369:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+369     'payments.highlights.commission': 'Minimal fees',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:370:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+370     'payments.highlights.decentralized': '100% decentralized',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:371:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+371     'payments.highlights.qrcrypto': 'QR + Crypto',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:372:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+372     'payments.highlights.tokens': 'VIAZ rewards',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:542:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+542     'transport.title': '🚗 TRANSPORTE DESCENTRALIZADO',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:543:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+543     'transport.intro': 'Conectamos passageiros e motoristas diretamente, sem intermediários.',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:544:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+544     'transport.advantages': 'Vantagens revolucionárias',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:545:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+545     'transport.feature1': 'Taxas mínimas vs. 25% Uber',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:546:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+546     'transport.feature2': 'Pagamentos em cripto e dinheiro sem KYC',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:547:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+547     'transport.feature3': 'Motoristas ganham mais dinheiro',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:548:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+548     'transport.feature4': 'Passageiros pagam menos',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:549:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+549     'transport.feature5': 'Recompensas em tokens VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:550:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+550     'transport.quote': 'O futuro do transporte é descentralizado',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:551:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+551     'transport.highlights.commission': 'Taxas mínimas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:552:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+552     'transport.highlights.blockchain': 'Segurança blockchain',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:553:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+553     'transport.highlights.global': 'Rede global',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:554:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+554     'transport.highlights.tokens': 'Recompensas VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:557:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+557     'accommodation.title': '🏠 ALOJAMENTO DESCENTRALIZADO',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:558:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+558     'accommodation.intro': 'Uma rede global de hospedagem',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:559:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+559     'accommodation.network': 'Rede descentralizada de alojamentos',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:560:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+560     'accommodation.improvements': 'melhorias fundamentais',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:561:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+561     'accommodation.feature1': 'Taxas ultra baixas vs. 18% Airbnb',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:562:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+562     'accommodation.feature2': 'Sem censura ou suspensões arbitrárias',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:563:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+563     'accommodation.feature3': 'Pagamentos diretos em cripto/dinheiro',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:564:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+564     'accommodation.feature4': 'Recompensas por hospedagem',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:565:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+565     'accommodation.feature5': 'Comunidade global verificada',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:566:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+566     'accommodation.quote': 'Hospedagem livre, justa e rentável',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:567:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+567     'accommodation.highlights.commission': 'Taxas ultra baixas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:568:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+568     'accommodation.highlights.nocensorship': 'Sem censura',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:569:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+569     'accommodation.highlights.blockchain': 'Pagamentos blockchain',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:570:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+570     'accommodation.highlights.cashback': 'Cashback VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:571:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+571     'accommodation.connecting': 'que conecta',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:574:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+574     'payments.title': '💳 SISTEMA DE PAGAMENTOS DESCENTRALIZADO',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:575:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+575     'payments.intro': 'Processa pagamentos globalmente sem bancos ou intermediários.',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:576:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+576     'payments.improvements': 'Melhorias disruptivas',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:577:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+577     'payments.feature1': 'Taxas mínimas vs. 4-6% cartões',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:578:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+578     'payments.feature2': 'Pagamentos instantâneos 24/7',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:579:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+579     'payments.feature3': 'Compatível com QR e cripto',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:580:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+580     'payments.feature4': 'Sem restrições geográficas',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:581:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+581     'payments.feature5': 'Recompensas por transações',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:582:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+582     'payments.quote': 'Pagamentos livres para o mundo',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:583:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+583     'payments.highlights.commission': 'Taxas mínimas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:584:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+584     'payments.highlights.decentralized': '100% descentralizado',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:585:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+585     'payments.highlights.qrcrypto': 'QR + Cripto',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:586:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+586     'payments.highlights.tokens': 'Recompensas VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:756:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+756     'transport.title': '🚗 TRANSPORT DÉCENTRALISÉ',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:757:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+757     'transport.intro': 'Nous connectons passagers et conducteurs directement, sans intermédiaires.',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:758:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+758     'transport.advantages': 'Avantages révolutionnaires',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:759:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+759     'transport.feature1': 'Frais minimaux vs. 25% Uber',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:760:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+760     'transport.feature2': 'Paiements crypto et cash sans KYC',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:761:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+761     'transport.feature3': 'Les conducteurs gagnent plus',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:762:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+762     'transport.feature4': 'Les passagers paient moins',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:763:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+763     'transport.feature5': 'Récompenses en tokens VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:764:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+764     'transport.quote': 'L\'avenir du transport est décentralisé',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:765:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+765     'transport.highlights.commission': 'Frais minimaux',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:766:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+766     'transport.highlights.blockchain': 'Sécurité blockchain',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:767:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+767     'transport.highlights.global': 'Réseau global',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:768:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+768     'transport.highlights.tokens': 'Récompenses VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:771:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+771     'accommodation.title': '🏠 HÉBERGEMENT DÉCENTRALISÉ',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:772:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+772     'accommodation.intro': 'Un réseau d\'hébergement global',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:773:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+773     'accommodation.network': 'Réseau décentralisé d\'hébergements',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:774:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+774     'accommodation.improvements': 'améliorations fondamentales',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:775:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+775     'accommodation.feature1': 'Frais ultra-bas vs. 18% Airbnb',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:776:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+776     'accommodation.feature2': 'Sans censure ni suspensions arbitraires',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:777:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+777     'accommodation.feature3': 'Paiements directs crypto/cash',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:778:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+778     'accommodation.feature4': 'Récompenses d\'hébergement',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:779:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+779     'accommodation.feature5': 'Communauté globale vérifiée',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:780:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+780     'accommodation.quote': 'Hébergement libre, équitable et rentable',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:781:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+781     'accommodation.highlights.commission': 'Frais ultra-bas',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:782:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+782     'accommodation.highlights.nocensorship': 'Sans censure',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:783:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+783     'accommodation.highlights.blockchain': 'Paiements blockchain',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:784:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+784     'accommodation.highlights.cashback': 'Cashback VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:785:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+785     'accommodation.connecting': 'qui connecte',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:788:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+788     'payments.title': '💳 SYSTÈME DE PAIEMENT DÉCENTRALISÉ',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:789:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+789     'payments.intro': 'Traite les paiements mondialement sans banques ni intermédiaires.',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:790:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+790     'payments.improvements': 'Améliorations disruptives',
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:791:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+791     'payments.feature1': 'Frais minimaux vs. 4-6% cartes',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:792:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+792     'payments.feature2': 'Paiements instantanés 24/7',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:793:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+793     'payments.feature3': 'Compatible QR et crypto',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:794:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+794     'payments.feature4': 'Sans restrictions géographiques',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:795:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+795     'payments.feature5': 'Récompenses de transaction',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:796:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+796     'payments.quote': 'Paiements libres pour le monde',
+        ~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:797:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+797     'payments.highlights.commission': 'Frais minimaux',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:798:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+798     'payments.highlights.decentralized': '100% décentralisé',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:799:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+799     'payments.highlights.qrcrypto': 'QR + Crypto',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:800:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+800     'payments.highlights.tokens': 'Récompenses VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 164 errors.
+

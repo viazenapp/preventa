@@ -1,0 +1,245 @@
+15-    // Navegación
+16-    'nav.home': 'INICIO',
+17-    'nav.trips': 'VIAJES',
+18-    'nav.accommodation': 'ALOJAMIENTO',
+19-    'nav.payments': 'PAGOS',
+20:    'nav.tokenomics': 'TOKENOMICS',
+21-    'nav.roadmap': 'ROADMAP',
+22-    'nav.presale': 'PREVENTA',
+23-    'nav.whitepaper': 'WHITEPAPER',
+24-    'nav.team': 'EQUIPO',
+25-    'nav.buyViaz': '🔗 CONECTAR BILLETERA',
+26-    
+27-    // Hero Section
+28-    'hero.welcome': 'Bienvenido a Viazen',
+29-    'hero.subtitle': 'Una revolución descentralizada en transporte, alojamiento y pagos. Comisiones irrisorias. Libertad total. Recompensas reales.',
+30-    'hero.joinPresale': 'Unite a la Preventa',
+31-    
+32-    // Presale Banner
+33-    'presale.launching': 'LANZANDO',
+34-    'presale.discount': '50% DE DESCUENTO',
+35-    'presale.participate': 'PARTICIPAR AHORA',
+36-    
+37-    // How It Works
+38-    'howItWorks.title': '¿Cómo funciona?',
+39-    'howItWorks.subtitle': 'Tres servicios revolucionarios en una sola plataforma descentralizada',
+40-    'howItWorks.step1.title': 'Transporte Descentralizado',
+--
+145-    // Whitepaper Highlights
+146-    'whitepaper.highlights.title': 'Whitepaper Highlights',
+147-    'whitepaper.highlights.subtitle': 'Descubre los aspectos clave del ecosistema VIAZEN y su revolucionaria propuesta de valor',
+148-    'whitepaper.highlights.services': 'Servicios Integrados',
+149-    'whitepaper.highlights.technology': 'Tecnología',
+150:    'whitepaper.highlights.tokenomics': 'Tokenomics',
+151-    
+152-    // Detailed Roadmap
+153-    'roadmap.detailed.title': 'Roadmap 2025-2028',
+154-    'roadmap.detailed.subtitle': 'Hoja de ruta detallada hacia la autonomía financiera y la descentralización completa',
+155-    'roadmap.detailed.join': 'Únete a la Revolución Descentralizada',
+156-    'roadmap.detailed.join.desc': 'Sé parte de VIAZEN desde el inicio y ayuda a construir el futuro de los servicios descentralizados',
+157-    'roadmap.detailed.join.button': 'Participar en la Preventa',
+158-    
+159-    // Token VIAZ
+160-    'token.viaz.name': 'Token VIAZ',
+161-    'token.viaz.network': 'Binance Smart Chain (BEP-20)',
+162-    'token.viaz.supply': '1,000,000,000 VIAZ',
+163-    'token.viaz.phase1': 'Fase 1: $0.010',
+164-    'token.viaz.phase2': 'Fase 2: $0.020',
+165-    'token.viaz.phase3': 'Fase 3: $0.030',
+166-    'token.viaz.launch': 'Lanzamiento: $0.10',
+167-    
+168-    // Team
+169-    'team.title': 'NUESTRO EQUIPO',
+170-    'team.subtitle': 'Los visionarios detrás de la revolución VIAZEN',
+--
+193-    // Navigation
+194-    'nav.home': 'HOME',
+195-    'nav.trips': 'TRIPS',
+196-    'nav.accommodation': 'ACCOMMODATION',
+197-    'nav.payments': 'PAYMENTS',
+198:    'nav.tokenomics': 'TOKENOMICS',
+199-    'nav.roadmap': 'ROADMAP',
+200-    'nav.presale': 'PRESALE',
+201-    'nav.whitepaper': 'WHITEPAPER',
+202-    'nav.team': 'TEAM',
+203-    'nav.buyViaz': '🔗 CONNECT WALLET',
+204-    
+205-    // Hero Section
+206-    'hero.welcome': 'Welcome to Viazen',
+207-    'hero.subtitle': 'A decentralized revolution in transport, accommodation and payments. Minimal fees. Total freedom. Real rewards.',
+208-    'hero.joinPresale': 'Join the Presale',
+209-    
+210-    // Presale Banner
+211-    'presale.launching': 'LAUNCHING',
+212-    'presale.discount': '50% DISCOUNT',
+213-    'presale.participate': 'PARTICIPATE NOW',
+214-    
+215-    // How It Works
+216-    'howItWorks.title': 'How does it work?',
+217-    'howItWorks.subtitle': 'Three revolutionary services on a single decentralized platform',
+218-    'howItWorks.step1.title': 'Decentralized Transport',
+--
+301-    'rewards.token.rewards.desc': 'Earn tokens for participating',
+302-    'rewards.token.governance.title': 'Governance Token',
+303-    'rewards.token.governance.desc': 'Vote on important decisions',
+304-    
+305-    // Tokenomics
+306:    'tokenomics.title': 'TOKENOMICS – VIAZ',
+307:    'tokenomics.subtitle': 'Distribution, presale and utility of VIAZ token',
+308:    'tokenomics.totalSupply': 'Total Supply:',
+309:    'tokenomics.distribution.title': '🧠 VIAZ Token Distribution',
+310:    'tokenomics.distribution.subtitle': 'Total supply strategically distributed to ensure ecosystem sustainability and growth',
+311:    'tokenomics.legend': 'Detailed Legend',
+312:    'tokenomics.vesting': 'Vesting Information',
+313:    'tokenomics.presale': 'Presale: No lock',
+314:    'tokenomics.team': 'Team: 24 months vesting',
+315:    'tokenomics.development': 'Development: By milestones',
+316:    'tokenomics.community': 'Community: Gradual 36 months',
+317-    
+318-    // Payment Methods
+319-    'payments.crypto': 'Cryptocurrencies',
+320-    'payments.traditional': 'Traditional Methods',
+321-    'payments.kycInfo': 'Crypto and cash payments do not require mandatory KYC.',
+322-    
+323-    // Community
+324-    'community.title': '🌍 We are a community building a new paradigm',
+325-    'community.subtitle': 'Join our Telegram, Discord channels and social networks.',
+326-    'community.stats.followers': 'Early followers',
+327-    'community.stats.countries': 'Interested countries',
+328-    'community.stats.active': 'Active community',
+329-    
+330-    // Whitepaper
+331-    'whitepaper.title': 'VIAZEN WHITEPAPER',
+332-    'whitepaper.subtitle': 'Complete functional document of VIAZEN: global super app integrating accommodation, travel and payments with VIAZ token',
+333-    'whitepaper.download': 'Download PDF',
+334-    'whitepaper.preview': 'Preview',
+335-    
+336-    // Team
+--
+361-    // Navigation
+362-    'nav.home': 'INÍCIO',
+363-    'nav.trips': 'VIAGENS',
+364-    'nav.accommodation': 'HOSPEDAGEM',
+365-    'nav.payments': 'PAGAMENTOS',
+366:    'nav.tokenomics': 'TOKENOMICS',
+367-    'nav.roadmap': 'ROADMAP',
+368-    'nav.presale': 'PRÉ-VENDA',
+369-    'nav.whitepaper': 'WHITEPAPER',
+370-    'nav.team': 'EQUIPE',
+371-    'nav.buyViaz': '🔗 CONECTAR CARTEIRA',
+372-    
+373-    // Hero Section
+374-    'hero.welcome': 'Bem-vindo ao Viazen',
+375-    'hero.subtitle': 'Uma revolução descentralizada em transporte, hospedagem e pagamentos. Taxas mínimas. Liberdade total. Recompensas reais.',
+376-    'hero.joinPresale': 'Junte-se à Pré-venda',
+377-    
+378-    // Presale Banner
+379-    'presale.launching': 'LANÇANDO',
+380-    'presale.discount': '50% DE DESCONTO',
+381-    'presale.participate': 'PARTICIPAR AGORA',
+382-    
+383-    // How It Works
+384-    'howItWorks.title': 'Como funciona?',
+385-    'howItWorks.subtitle': 'Três serviços revolucionários em uma única plataforma descentralizada',
+386-    'howItWorks.step1.title': 'Transporte Descentralizado',
+--
+469-    'rewards.token.rewards.desc': 'Ganhe tokens por participar',
+470-    'rewards.token.governance.title': 'Governance Token',
+471-    'rewards.token.governance.desc': 'Vote em decisões importantes',
+472-    
+473-    // Tokenomics
+474:    'tokenomics.title': 'TOKENOMICS – VIAZ',
+475:    'tokenomics.subtitle': 'Distribuição, pré-venda e utilidade do token VIAZ',
+476:    'tokenomics.totalSupply': 'Fornecimento Total:',
+477:    'tokenomics.distribution.title': '🧠 Distribuição do Token VIAZ',
+478:    'tokenomics.distribution.subtitle': 'Fornecimento total estrategicamente distribuído para garantir sustentabilidade e crescimento do ecossistema',
+479:    'tokenomics.legend': 'Legenda Detalhada',
+480:    'tokenomics.vesting': 'Informações de Vesting',
+481:    'tokenomics.presale': 'Pré-venda: Sem bloqueio',
+482:    'tokenomics.team': 'Equipe: 24 meses vesting',
+483:    'tokenomics.development': 'Desenvolvimento: Por marcos',
+484:    'tokenomics.community': 'Comunidade: Gradual 36 meses',
+485-    
+486-    // Payment Methods
+487-    'payments.crypto': 'Criptomoedas',
+488-    'payments.traditional': 'Métodos Tradicionais',
+489-    'payments.kycInfo': 'Pagamentos em cripto e dinheiro não requerem KYC obrigatório.',
+490-    
+491-    // Community
+492-    'community.title': '🌍 Somos uma comunidade construindo um novo paradigma',
+493-    'community.subtitle': 'Junte-se aos nossos canais do Telegram, Discord e redes sociais.',
+494-    'community.stats.followers': 'Seguidores iniciais',
+495-    'community.stats.countries': 'Países interessados',
+496-    'community.stats.active': 'Comunidade ativa',
+497-    
+498-    // Whitepaper
+499-    'whitepaper.title': 'WHITEPAPER VIAZEN',
+500-    'whitepaper.subtitle': 'Documento funcional completo do VIAZEN: super app global que integra alojamento, viagens e pagamentos com token VIAZ',
+501-    'whitepaper.download': 'Baixar PDF',
+502-    'whitepaper.preview': 'Visualizar',
+503-    
+504-    // Team
+--
+529-    // Navigation
+530-    'nav.home': 'ACCUEIL',
+531-    'nav.trips': 'VOYAGES',
+532-    'nav.accommodation': 'HÉBERGEMENT',
+533-    'nav.payments': 'PAIEMENTS',
+534:    'nav.tokenomics': 'TOKENOMICS',
+535-    'nav.roadmap': 'ROADMAP',
+536-    'nav.presale': 'PRÉVENTE',
+537-    'nav.whitepaper': 'WHITEPAPER',
+538-    'nav.team': 'ÉQUIPE',
+539-    'nav.buyViaz': '🔗 CONNECTER PORTEFEUILLE',
+540-    
+541-    // Hero Section
+542-    'hero.welcome': 'Bienvenue à Viazen',
+543-    'hero.subtitle': 'Une révolution décentralisée dans le transport, l\'hébergement et les paiements. Frais minimaux. Liberté totale. Récompenses réelles.',
+544-    'hero.joinPresale': 'Rejoindre la Prévente',
+545-    
+546-    // Presale Banner
+547-    'presale.launching': 'LANCEMENT',
+548-    'presale.discount': '50% DE RÉDUCTION',
+549-    'presale.participate': 'PARTICIPER MAINTENANT',
+550-    
+551-    // How It Works
+552-    'howItWorks.title': 'Comment ça fonctionne?',
+553-    'howItWorks.subtitle': 'Trois services révolutionnaires sur une seule plateforme décentralisée',
+554-    'howItWorks.step1.title': 'Transport Décentralisé',
+--
+637-    'rewards.token.rewards.desc': 'Gagnez des tokens en participant',
+638-    'rewards.token.governance.title': 'Governance Token',
+639-    'rewards.token.governance.desc': 'Votez sur des décisions importantes',
+640-    
+641-    // Tokenomics
+642:    'tokenomics.title': 'TOKENOMICS – VIAZ',
+643:    'tokenomics.subtitle': 'Distribution, prévente et utilité du token VIAZ',
+644:    'tokenomics.totalSupply': 'Offre Totale:',
+645:    'tokenomics.distribution.title': '🧠 Distribution du Token VIAZ',
+646:    'tokenomics.distribution.subtitle': 'Offre totale stratégiquement distribuée pour assurer la durabilité et la croissance de l\'écosystème',
+647:    'tokenomics.legend': 'Légende Détaillée',
+648:    'tokenomics.vesting': 'Informations de Vesting',
+649:    'tokenomics.presale': 'Prévente: Sans verrouillage',
+650:    'tokenomics.team': 'Équipe: 24 mois vesting',
+651:    'tokenomics.development': 'Développement: Par jalons',
+652:    'tokenomics.community': 'Communauté: Graduel 36 mois',
+653-    
+654-    // Payment Methods
+655-    'payments.crypto': 'Cryptomonnaies',
+656-    'payments.traditional': 'Méthodes Traditionnelles',
+657-    'payments.kycInfo': 'Les paiements en crypto et espèces ne nécessitent pas de KYC obligatoire.',
+658-    
+659-    // Community
+660-    'community.title': '🌍 Nous sommes une communauté construisant un nouveau paradigme',
+661-    'community.subtitle': 'Rejoignez nos canaux Telegram, Discord et réseaux sociaux.',
+662-    'community.stats.followers': 'Premiers followers',
+663-    'community.stats.countries': 'Pays intéressés',
+664-    'community.stats.active': 'Communauté active',
+665-    
+666-    // Whitepaper
+667-    'whitepaper.title': 'WHITEPAPER VIAZEN',
+668-    'whitepaper.subtitle': 'Document fonctionnel complet de VIAZEN: super app globale intégrant hébergement, voyages et paiements avec token VIAZ',
+669-    'whitepaper.download': 'Télécharger PDF',
+670-    'whitepaper.preview': 'Aperçu',
+671-    
+672-    // Team

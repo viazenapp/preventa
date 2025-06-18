@@ -1,0 +1,239 @@
+
+> react_repo@0.0.0 build
+> pnpm install && rm -rf node_modules/.vite-temp && tsc -b && vite build
+
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: esbuild.                                            │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 2.9s using pnpm v10.11.0
+src/contexts/LanguageContext.tsx:140:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+140     'tokenomics.title': 'TOKENOMICS – VIAZ',
+        ~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:141:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+141     'tokenomics.subtitle': 'Distribución, preventa y utilidad del token VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:142:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+142     'tokenomics.totalSupply': 'Total Supply:',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:143:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+143     'tokenomics.distribution.title': '🧠 Distribución del Token VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:144:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+144     'tokenomics.distribution.subtitle': 'Suministro total estratégicamente distribuido para asegurar la sostenibilidad y crecimiento del ecosistema',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:145:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+145     'tokenomics.legend': 'Leyenda Detallada',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:146:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+146     'tokenomics.vesting': 'Información de Vesting',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:147:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+147     'tokenomics.presale': 'Preventa: Sin bloqueo',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:148:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+148     'tokenomics.team': 'Equipo: 24 meses vesting',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:149:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+149     'tokenomics.development': 'Desarrollo: Por hitos',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:150:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+150     'tokenomics.community': 'Comunidad: Gradual 36 meses',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:320:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+320     'tokenomics.title': 'TOKENOMICS – VIAZ',
+        ~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:321:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+321     'tokenomics.subtitle': 'Distribution, presale and utility of VIAZ token',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:322:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+322     'tokenomics.totalSupply': 'Total Supply:',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:323:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+323     'tokenomics.distribution.title': '🧠 VIAZ Token Distribution',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:324:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+324     'tokenomics.distribution.subtitle': 'Total supply strategically distributed to ensure ecosystem sustainability and growth',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:325:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+325     'tokenomics.legend': 'Detailed Legend',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:326:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+326     'tokenomics.vesting': 'Vesting Information',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:327:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+327     'tokenomics.presale': 'Presale: No lock',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:328:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+328     'tokenomics.team': 'Team: 24 months vesting',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:329:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+329     'tokenomics.development': 'Development: By milestones',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:330:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+330     'tokenomics.community': 'Community: Gradual 36 months',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:500:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+500     'tokenomics.title': 'TOKENOMICS – VIAZ',
+        ~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:501:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+501     'tokenomics.subtitle': 'Distribuição, pré-venda e utilidade do token VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:502:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+502     'tokenomics.totalSupply': 'Fornecimento Total:',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:503:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+503     'tokenomics.distribution.title': '🧠 Distribuição do Token VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:504:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+504     'tokenomics.distribution.subtitle': 'Fornecimento total estrategicamente distribuído para garantir sustentabilidade e crescimento do ecossistema',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:505:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+505     'tokenomics.legend': 'Legenda Detalhada',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:506:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+506     'tokenomics.vesting': 'Informações de Vesting',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:507:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+507     'tokenomics.presale': 'Pré-venda: Sem bloqueio',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:508:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+508     'tokenomics.team': 'Equipe: 24 meses vesting',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:509:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+509     'tokenomics.development': 'Desenvolvimento: Por marcos',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:510:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+510     'tokenomics.community': 'Comunidade: Gradual 36 meses',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:680:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+680     'tokenomics.title': 'TOKENOMICS – VIAZ',
+        ~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:681:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+681     'tokenomics.subtitle': 'Distribution, prévente et utilité du token VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:682:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+682     'tokenomics.totalSupply': 'Offre Totale:',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:683:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+683     'tokenomics.distribution.title': '🧠 Distribution du Token VIAZ',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:684:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+684     'tokenomics.distribution.subtitle': 'Offre totale stratégiquement distribuée pour assurer la durabilité et la croissance de l\'écosystème',
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:685:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+685     'tokenomics.legend': 'Légende Détaillée',
+        ~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:686:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+686     'tokenomics.vesting': 'Informations de Vesting',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:687:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+687     'tokenomics.presale': 'Prévente: Sans verrouillage',
+        ~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:688:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+688     'tokenomics.team': 'Équipe: 24 mois vesting',
+        ~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:689:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+689     'tokenomics.development': 'Développement: Par jalons',
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/contexts/LanguageContext.tsx:690:5 - error TS1117: An object literal cannot have multiple properties with the same name.
+
+690     'tokenomics.community': 'Communauté: Graduel 36 mois',
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 44 errors.
+

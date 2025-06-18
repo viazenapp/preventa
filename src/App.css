@@ -1,0 +1,190 @@
+/* Animaciones personalizadas para Viazen */
+#root {
+  margin: 0 auto;
+}
+
+/* Partículas flotantes */
+.particles-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: linear-gradient(45deg, #ffd700, #ffc107, #ffb300);
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: float 20s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1);
+    opacity: 0;
+  }
+}
+
+/* Gradiente animado de fondo */
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 400% 400%;
+  animation: gradient-x 15s ease infinite;
+}
+
+/* Efecto de pulso con glow */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Hover effects para iconos de servicios */
+.service-icon {
+  transition: all 0.3s ease;
+}
+
+.service-icon:hover {
+  transform: translateY(-5px);
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ffd700, #ffb300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #ffc107, #ff9800);
+}
+
+/* Efectos de sombra extendida */
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25), 0 0 40px rgba(255, 215, 0, 0.3);
+}
+
+/* Mejoras para dispositivos móviles */
+@media (max-width: 768px) {
+  .particle {
+    width: 1px;
+    height: 1px;
+  }
+}
+
+/* Animaciones específicas para elementos de Viazen */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80% {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Efectos de hover mejorados */
+.button-glow:hover {
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+  transform: translateY(-2px) scale(1.02);
+}
+
+.service-icon-enhanced {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.service-icon-enhanced:hover {
+  transform: translateY(-8px) scale(1.1);
+  filter: drop-shadow(0 10px 20px rgba(255, 215, 0, 0.3));
+}
+
+/* Pulso suave para elementos importantes */
+@keyframes soft-pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.soft-pulse {
+  animation: soft-pulse 4s ease-in-out infinite;
+}
+
+/* Efecto de texto brillante */
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Animación de aparecer con retraso */
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.animate-bounce-in {
+  animation: bounceIn 1s ease-out;
+}
