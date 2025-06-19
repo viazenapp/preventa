@@ -23,8 +23,7 @@
     "noUncheckedIndexedAccess": false,
     "noImplicitReturns": false,
     "noImplicitThis": false,
-    "noPropertyAccessFromIndexSignature": false,
-    "noUncheckedIndexedAccess": false
+    "noPropertyAccessFromIndexSignature": false
   },
   "include": ["src"]
 }
