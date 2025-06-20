@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React from 'react'
 import './App.css'
 import WorkingLandingPage from './components/WorkingLandingPage'
 import { LanguageProvider } from './contexts/LanguageContext'
